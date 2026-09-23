@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT Kota</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <header class="header">
+        <table width="100%">
+            <tr>
+                <td width="150">
+                    <img src="data:image/png;base64,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"
+                        width="150" height="150" alt="IIIT Kota Logo">
+                </td>
+
+                <td>
+                    <big>Indian Institute of Information Technology Kota</big>
+                    <h3>भारतीय सूचना प्रौद्योगिकी संस्थान कोटा</h3>
+                    <small>As institute of national importance as Parliament Act</small>
+                </td>
+
+                <td align="right">
+                    <nav>
+                        <a href="https://iiitkota.ac.in/about-institute"><button>About</button></a>
+                        <a href="https://iiitkota.ac.in/visitor"><button>Administration</button></a>
+                        <a href="https://iiitkota.ac.in/department"><button>Academics</button></a>
+                        <a href="https://iiitkota.ac.in/ug-procedure"><button>Admission</button></a>
+                        <a href="https://iiitkota.ac.in/library"><button>Facilities</button></a>
+                        <a href="https://iiitkota.ac.in/faculty"><button>People</button></a>
+                        <a href="https://iiitkota.ac.in/students-council"><button>Students</button></a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <hr>
+    <br>
+
+    <a href="https://iiitkota.ac.in/">
+        <img src="https://cdn.iiitkota.ac.in/carousel/2026-08-31_Orientation%202026.webp" width="100%" height="600"
+            alt="IIIT Kota">
+    </a>
+
+    <br>
+    <hr>
+    <span>
+        <a href="https://iiitkota.ac.in/about-institute">
+            <h2>About
+                IIIT Kota
+            </h2>
+        </a>
+    </span>
+    <p>
+        The Indian Institute of Information Technology, Kota (IIIT Kota), is an Institute of National Importance,
+        established in 2013. It operates under a public-private partnership (PPP) model involving the Ministry of
+        Education (MoE), the Government of India, the Government of Rajasthan, and industry partners.
+
+        IIIT Kota is currently mentored by MNIT Jaipur and now functions from its permanent campus located in Ranpur,
+        Kota. The campus spans 100.37 acres, allocated by the Government of Rajasthan since 2021.
+    </p>
+    <a href="https://iiitkota.ac.in/about-institute">About Institute</a>
+    <hr>
+    <h1>Directers Message
+
+    </h1>
+    <section class="director">
+
+
+        <table width="100%">
+            <tr>
+                <td>
+                    <img id="direcImg"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuLVTBCqW9NNZae3gZ8kFUNW7Jp4B5T9rSorV23oDeQ&s=10"
+                        width="800" alt="">
+                </td>
+
+                <td>
+
+                    <p id="direc">Welcome to Indian Institute of Information Technology, Kota. Since its inception, in
+                        2013, IIIT
+                        Kota
+                        has
+                        accomplished many milestones and covered an illustrious journey in last 13 years. As one of the
+                        Premier
+                        Institutes, that is a joint venture of the Ministry of Education and Government of Rajasthan
+                        with 4
+                        strong
+                        Industry Partners in Public-Private Partnership (PPP) mode, the institute has come a long way.
+
+                        IIIT Kota provides a highly conducive environment to its students for enhancing their technical
+                        and
+                        academic
+                        skills. Being a part of this institute will definitely provide lot of opportunities for grooming
+                        overall
+                        personality. I welcome you all to come and join this premier institute so that you can embark on
+                        a
+                        journey of
+                        lifelong learning.</p>
+                </td>
+                <td>
+                    <button id="b1">Director Message</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section class="updates-section">
+        <h1>ANNOUNCEMENTS & UPDATES</h1>
+
+        <div class="updates-container">
+
+
+            <div class="update-card">
+                <h2>ANNOUNCEMENTS</h2>
+
+                <ul>
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a85b6c445de6924aac64807">
+                            Notice Regarding Orientation Programme for 1st Year UG Students
+                            (Academic Year 2026-27)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a7ffec145de6924aac647fc">
+                            Notice for Walk-in-Interview scheduled to be held on 21th August 2026
+                            for the post of TnP Manager at IIIT Kota
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a28f4ac64bc5a7b18603429">
+                            Notice for Walk-in-Interview scheduled to be held on 15th June 2026
+                            for the post of TnP Manager at IIIT Kota
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="#" class="view-more">View All Announcements →</a>
+            </div>
+
+
+            <div class="update-card">
+                <h2>STUDENT NEWS</h2>
+
+                <ul>
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a85b6c445de6924aac64807">
+                            Notice Regarding Orientation Programme for 1st Year UG Students
+                            (Academic Year 2026-27)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a7ffec145de6924aac647fc">
+                            Notice for Walk-in-Interview scheduled to be held on 21th August 2026
+                            for the post of TnP Manager at IIIT Kota
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://iiitkota.ac.in/announcements/6a28f4ac64bc5a7b18603429">
+                            Notice for Walk-in-Interview scheduled to be held on 15th June 2026
+                            for the post of TnP Manager at IIIT Kota
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="#" class="view-more">View All Student News →</a>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <h1>Addmision form</h1>
+    <p><a href="http://127.0.0.1:5500/form.html">Click</a> Here to submit form</p>
+    <br><br><br>
+    <h1>Find us on youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aICdMaU4CNw?si=q--XdvGWDCygusuu"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br><br><br>
+    <h1>Find us on Google map</h1>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.076383887514!2d75.8304845841142!3d25.04974165686397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f873f4fed661b%3A0x3120cfb5f427a045!2sIIIT%20Kota!5e0!3m2!1sen!2sin!4v1789554216628!5m2!1sen!2sin"
+        width="2000" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+</body>
+
+</html>
